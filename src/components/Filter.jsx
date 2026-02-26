@@ -16,7 +16,7 @@ const Filter = ({ filterFunc }) => {
         placeholder="Search name or past address"
         value={filterInput}
         onChange={(e) => setFilterInput(e.target.value)}
-        className="w-full bg-transparent rounded-2xl border border-[#091736] p-2 text-xl text-white placeholder:text-[#46392C] text-center"
+        className="w-full bg-transparent rounded-2xl border border-[#212948] p-2 text-xl text-white placeholder:text-[#46392C] text-center"
       />
     </>
   );
